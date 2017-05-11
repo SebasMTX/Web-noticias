@@ -58,4 +58,4 @@ Se crea el archivo que contiene los datos de las noticias, codificándol en _xml
 
 Se comprime y optimiza el código para mejorar tiempos de carga y tamaño de los archivos.
 
-Rawgit de la versión minified: https://github.com/SebasMTX/Web-noticias/blob/minify/index.html 
+Rawgit de la versión minified: https://rawgit.com/SebasMTX/Web-noticias/minify/index.html
