@@ -31,7 +31,9 @@ Las fotos seleccionadas para las noticias se almacenan en una carpeta llamada _i
 
 Se crean y codifican tres _html_ que nos permitirán leer cada una de las noticias antes redactadas, a página completa, cuando clicamos sobre el título de la noticia. Se incluirá la funcionalidad para regresar a la página principal al finalizar. La barra de menú superior mostrará al usuario la página en la que se encuentra y permitirá enlazar con la página principal. También se incorporará un botón al final de la noticia con el mismo fin.
 
-Junto al contenido del artículo enlazado se incluye la foto de la noticia, a mayor resolución que en la página principal, que se adapta al tamaño de la pantalla. Así mismo se incluye un vídeo de la noticia, procedente de _**Youtube**_ con características _responsive_ (Adaptable al tamaño de pantalla). 
+Junto al contenido del artículo enlazado se incluye la foto de la noticia, a mayor resolución que en la página principal, que se adapta al tamaño de la pantalla. Así mismo se incluye un vídeo de la noticia, procedente de _**Youtube**_ con características _responsive_ (Adaptable al tamaño de pantalla).
+
+En la hoja de estilo se contruyen las instrucciones para conseguir que la web creada se adapte a todo tipo de dispositivos.
 
 #### Archivos json.
 
