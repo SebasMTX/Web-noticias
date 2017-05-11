@@ -12,7 +12,7 @@
 
 El proyecto solicitado se realizará distribuyendo el espacio en pantalla en la forma que se muestra en la siguiente imagen:
 
-![imagen HTML](storyboard.jpg)
+![imagen HTML](boceto.jpg)
 
 #### Creación de la página principal.
 
