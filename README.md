@@ -13,4 +13,4 @@ La optimización del código se realiza mediante las siguientes aplicaciones web
 
 Enlace Rawgit al proyecto minified: 
 
-#### https://rawgit.com/SebasMTX/Web-noticias/minify/index.html
+### https://rawgit.com/SebasMTX/Web-noticias/minify/index.html
