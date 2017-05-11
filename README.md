@@ -1,6 +1,6 @@
 # LMSGI-07. Página web de noticias.
 ## Autor: Sebastián Marqués Pardo.
-### Previsualización del proyecto minified: https://github.com/SebasMTX/Web-noticias/blob/minify/index.html
+### Previsualización del proyecto minified: https://rawgit.com/SebasMTX/Web-noticias/minify/index.html
 #### Versión minified del proyecto.
 
 Se comprime el código de los archivos para que ocupen menos tamaño y la carga sea más rápida, eliminando caracteres y espacios innecesarios.
