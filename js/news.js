@@ -19,7 +19,7 @@ $(document).ready(function(){
 		});	
 	}
 
-// Función cargar noticias //	                       Ayuda en el código y reproducido con autorización de kaenguma132 (https://github.com/kaenguma132/pagina-de-consolas)!!!!!!
+// Función cargar noticias /Ayuda en el código y reproducido con autorización de kaenguma132 (https://github.com/kaenguma132/pagina-de-consolas)!!!!!!
 	
 	$("#masNoti").on("click", cargarNoticias);
     $(window).scrollTop(0);
