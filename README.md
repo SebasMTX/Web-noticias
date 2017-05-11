@@ -16,18 +16,22 @@ El proyecto solicitado se realizará distribuyendo el espacio en pantalla en la 
 
 #### Creación de la página principal.
 
-Se crea la página principal (_index.html_), conteniendo tres noticias iniciales redactadas en el mismo html. Cada noticia consta de:
+Se crea la página principal (_index.html_), conteniendo tres noticias iniciales redactadas en el mismo html. Para facilitar la implementación del diseño de la página proyectada se hará uso del conjunto de herramientas de código abierto _Bootstrap_ ya que contiene plantillas de diseño con tipografía, formularios, botones, cuadros, menús de navegación y otros elementos de diseño basado en HTML y CSS, así como, extensiones de JavaScript opcionales adicionales.
+
+Cada noticia de las incluídas en la página consta de:
+
 - Título de la noticia.
 - Contenido de la noticia.
 - Foto a tamaño reducido (de similares dimensiones en todas las noticias).
 - Fecha de publicación.
+
 Las fotos seleccionadas para las noticias se almacenan en una carpeta llamada _img_.
 
 #### Creación de las páginas de noticias.
 
 Se crean y codifican tres _html_ que nos permitirán leer cada una de las noticias antes redactadas, a página completa, cuando clicamos sobre el título de la noticia. Se incluirá la funcionalidad para regresar a la página principal al finalizar. La barra de menú superior mostrará al usuario la página en la que se encuentra y permitirá enlazar con la página principal. También se incorporará un botón al final de la noticia con el mismo fin.
 
-Junto al contenido del artículo enlazado se incluye la foto de la noticia, a mayor resolución que en la página principal, que se adapta al tamaño de la pantalla. Así mismo se incluye un vídeo de la noticia, procedente de _**Youtube**_ con caractrísticas _responsive_ (Adaptable al tamaño de pantalla). 
+Junto al contenido del artículo enlazado se incluye la foto de la noticia, a mayor resolución que en la página principal, que se adapta al tamaño de la pantalla. Así mismo se incluye un vídeo de la noticia, procedente de _**Youtube**_ con características _responsive_ (Adaptable al tamaño de pantalla). 
 
 #### Archivos json.
 
