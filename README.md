@@ -16,7 +16,11 @@ El proyecto solicitado se realizará distribuyendo el espacio en pantalla en la 
 
 #### Creación de la página principal.
 
-Se crea la página principal (_index.html_), conteniendo tres noticias iniciales redactadas en el mismo html. Cada noticia consta de un título, un contenido, una foto a tamaño reducido (de similares dimensiones en todas las noticias) y la fecha de publicación.
+Se crea la página principal (_index.html_), conteniendo tres noticias iniciales redactadas en el mismo html. Cada noticia consta de:
+- Título de la noticia.
+- Contenido de la noticia.
+- Foto a tamaño reducido (de similares dimensiones en todas las noticias).
+- Fecha de publicación.
 Las fotos seleccionadas para las noticias se almacenan en una carpeta llamada _img_.
 
 #### Creación de las páginas de noticias.
@@ -29,23 +33,27 @@ Junto al contenido del artículo enlazado se incluye la foto de la noticia, a ma
 
 Para almacenar 6 noticias más se reparten tres noticias, con sus respectivos contenidos, en cada uno de los archivos _json_ creados. Los archivos _json_ son almacenados en la carpeta _datos_ para ser consultados posteriormente mediante funciones _javaScript_.
 
-#### JavaScript
+#### JavaScript.
 
 Se realiza la codificación de las funciones necesarias para: 
 
 - Ocultar la publicidad cuando el tamaño de la pantalla del dispositivo es inferior a 768px y se inicia el scroll de la pantalla, mostrándose de nuevo cuando la pantalla se halle en su posición inicial (ScrollTop 0).
 - Cargar las noticias contenidas en los dos archivos _json_ y se muestren al pulsar el botón de recarga de noticias. Con cada pulsación del botón se recargarán tres noticias, mostrándose un aviso en pantalla cuando no haya más noticias.
 
-#### RSS
+#### RSS.
 
 Se crea el archivo que contiene los datos de las noticias, codificándol en _xml_ y almacenándolo posteriormente en la carpeta _rss_.
 
+#### Open Graph.
 
-
-    La plantilla o página de ver una sola noticia news1.html (news2.html es idéntica) debe contener una imagen y un vídeo de youtube responsive (ver: http://fpadistancia.caib.es/mod/page/view.php ? id = 64.319)
-    (Hasta 1 punto)
-    Cada página debe contener las etiquetas meta (con open graph) para compartir título, descripción, imagen (grande), nombre de la aplicación y url de la página.
-    (Hasta 1 punto)
+ Cada página contiene las etiquetas meta (con open graph) para compartir:
+ 
+ - Título
+ - Descripción.
+ - Imagen (en tamaño grande).
+ - Nombre de la aplicación.
+ -Url de la página.
+ 
 
 Hasta + 2 puntos: acabado final (o dicho de otra forma: cumplir las especificaciones del cliente o dar soluciones elegantes alternativas)
 
