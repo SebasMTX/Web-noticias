@@ -21,7 +21,9 @@ Las fotos seleccionadas para las noticias se almacenan en una carpeta llamada _i
 
 #### Creación de las páginas de noticias.
 
-Se crean tres _html_ que nos permitirán leer cada una de las noticias antes redactadas, a página completa, permitiendo regresar a la página principal al finalizar.
+Se crean y codifican tres _html_ que nos permitirán leer cada una de las noticias antes redactadas, a página completa, cuando clicamos sobre el título de la noticia. Se incluirá la funcionalidad para regresar a la página principal al finalizar. La barra de menú superior mostrará al usuario la página en la que se encuentra y permitirá enlazar con la página principal. También se incorporará un botón al final de la noticia con el mismo fin.
+
+Junto al contenido del artículo enlazado se incluye la foto de la noticia, a mayor resolución que en la página principal, que se adapta al tamaño de la pantalla. Así mismo se incluye un vídeo de la noticia, procedente de _**Youtube**_ con caractrísticas _responsive_ (Adaptable al tamaño de pantalla). 
 
 #### Archivos json.
 
@@ -32,14 +34,14 @@ Para almacenar 6 noticias más se reparten tres noticias, con sus respectivos co
 Se realiza la codificación de las funciones necesarias para: 
 
 - Ocultar la publicidad cuando el tamaño de la pantalla del dispositivo es inferior a 768px y se inicia el scroll de la pantalla, mostrándose de nuevo cuando la pantalla se halle en su posición inicial (ScrollTop 0).
-- Se carguen las noticias contenidas en los dos archivos _json_ y se muestren al pulsar el botón de recarga de noticias. Con cada pulsación del botón se recargarán tres noticias, mostrándose un aviso en pantalla cuando no haya más noticias.
+- Cargar las noticias contenidas en los dos archivos _json_ y se muestren al pulsar el botón de recarga de noticias. Con cada pulsación del botón se recargarán tres noticias, mostrándose un aviso en pantalla cuando no haya más noticias.
 
-    Codifica news.js en jQuery para hacer: "botón cargar más noticias" y "scroll bottom" que, al ser activado cualquiera de ellos, haga una carga y presentación de más datos (hasta dos veces 1.json, 2.json )
-    (Hasta 1 punto)
-    Incluye rss.xml (especificado en el tema 6)
-    (Hasta 1 punto)
-    Codifica news1.html y news2.html, páginas que corresponden a las dos primeras noticias (últimas publicadas). Cuando hacemos clic en la noticia 1 de news.html nos va a news1.html, cuando hacemos clic en la noticia 2 de news.html nos va a news2.html (seguir no tiene sentido, esta tarea se automatiza con código de servidor ).
-    (Hasta 1 punto)
+#### RSS
+
+Se crea el archivo que contiene los datos de las noticias, codificándol en _xml_ y almacenándolo posteriormente en la carpeta _rss_.
+
+
+
     La plantilla o página de ver una sola noticia news1.html (news2.html es idéntica) debe contener una imagen y un vídeo de youtube responsive (ver: http://fpadistancia.caib.es/mod/page/view.php ? id = 64.319)
     (Hasta 1 punto)
     Cada página debe contener las etiquetas meta (con open graph) para compartir título, descripción, imagen (grande), nombre de la aplicación y url de la página.
