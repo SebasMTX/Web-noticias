@@ -10,10 +10,30 @@
 
 #### Tareas:
 
-    Realiza la maquetación del proyecto. Entrega un breve documento con el análisis y la planificación al README.md (valen fotos de esquemas del cuaderno).
-    (Hasta 2 puntos)
-    Presenta news.html con 3 noticias (ya escritas en html, no cargar con js) y almacena 6 noticias más en dos ficheros, fecha / 1.json fecha / 2.json para ser cargadas con js.
-    (Hasta 2 puntos)
+El proyecto solicitado se realizará distribuyendo el espacio en pantalla en la forma que se muestra en la siguiente imagen:
+
+![imagen HTML](storyboard.jpg)
+
+#### Creación de la página principal.
+
+Se crea la página principal (_index.html_), conteniendo tres noticias iniciales redactadas en el mismo html. Cada noticia consta de un título, un contenido, una foto a tamaño reducido (de similares dimensiones en todas las noticias) y la fecha de publicación.
+Las fotos seleccionadas para las noticias se almacenan en una carpeta llamada _img_.
+
+#### Creación de las páginas de noticias.
+
+Se crean tres _html_ que nos permitirán leer cada una de las noticias antes redactadas, a página completa, permitiendo regresar a la página principal al finalizar.
+
+#### Archivos json.
+
+Para almacenar 6 noticias más se reparten tres noticias, con sus respectivos contenidos, en cada uno de los archivos _json_ creados. Los archivos _json_ son almacenados en la carpeta _datos_ para ser consultados posteriormente mediante funciones _javaScript_.
+
+#### JavaScript
+
+Se realiza la codificación de las funciones necesarias para: 
+
+- Ocultar la publicidad cuando el tamaño de la pantalla del dispositivo es inferior a 768px y se inicia el scroll de la pantalla, mostrándose de nuevo cuando la pantalla se halle en su posición inicial (ScrollTop 0).
+- Se carguen las noticias contenidas en los dos archivos _json_ y se muestren al pulsar el botón de recarga de noticias. Con cada pulsación del botón se recargarán tres noticias, mostrándose un aviso en pantalla cuando no haya más noticias.
+
     Codifica news.js en jQuery para hacer: "botón cargar más noticias" y "scroll bottom" que, al ser activado cualquiera de ellos, haga una carga y presentación de más datos (hasta dos veces 1.json, 2.json )
     (Hasta 1 punto)
     Incluye rss.xml (especificado en el tema 6)
