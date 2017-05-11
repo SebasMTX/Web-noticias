@@ -1,6 +1,6 @@
-# LMSGI-02. Proyecto Lunar Landing (HTML, CSS y JavaScript)
+# LMSGI-07. Página web de noticias.
 ## Autor: Sebastián Marqués Pardo.
-### Previsualización del proyecto: https://rawgit.com/SebasMTX/LunarLanding/master/inicio.html
+### Previsualización del proyecto: https://rawgit.com/SebasMTX/Web-noticias/master/index.html
 #### Descripción del proyecto.
 Para realizar el proyecto Lunar Landing se debe desarrollar una aplicación web según el siguiente _StoryBoard_:  
 ![imagen HTML](storyboard.jpg)  
