@@ -54,3 +54,8 @@ Se crea el archivo que contiene los datos de las noticias, codificándol en _xml
  - Nombre de la aplicación.
  - Url de la página.
  
+#### Versión minified del proyecto
+
+Se comprime y optimiza el código para mejorar tiempos de carga y tamaño de los archivos.
+
+** Versión minified: 
