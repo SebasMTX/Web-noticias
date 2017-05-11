@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <title>El noticiero semanal</title>
+      <meta charset="utf-8">
+	  <meta name="description" content="Noticiero semanal. Noticias sobre los temas que te interesan">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta property="og:title" content="Noticiero semanal">
+      <meta property="og:site_name" content="Noticiero semanal">
+      <meta property="og:image" content="https://rawgit.com/SebasMTX/Web-noticias/master/img/news.jpg">
+      <meta property="og:url" content="https://rawgit.com/SebasMTX/Web-noticias/master/index.html">
+	  <meta property="og:description" content="Noticias sobre los temas que te interesan">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="css/a.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/news.js"></script>
+      <link rel="alternate" type="application/rss+xml" title="rss de la aplicación" href="rss/rss.xml">
+   </head>
+   <body id="noticiero" data-spy="scroll" data-target=".navbar" data-offset="60">
+<!-- Barra de navegación fijada arriba -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#barraNav">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>                        
+               </button>
+               <a class="navbar-brand" href="#noticiero">Noticiero semanal</a>
+            </div>
+            <div class="collapse navbar-collapse" id="barraNav">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#acerca">ACERCA DE</a></li>
+                  <li><a href="#noticias">NOTICIAS</a></li>
+                  <li><a href="#contacto">CONTACTO</a></li>
+                  <li><a href="#login" data-toggle="modal" data-target="#myModal">LOGIN</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+<!-- Header y formulario suscripción -->
+      <div id="jumbo" class="jumbotron text-center">
+         <h1 id="cap">Noticiero semanal</h1>
+         <p id="tex">Todas las novedades sobre los temas que te interesan.</p>
+         <p id="tex">Mantente siempre informado, regístrate en nuestra página, selecciona el tema que te interesa y nosotros buscaremos las noticias por ti, mostrándotelas todas en una sola página.<br> Utiliza el siguiente formulario para introducir tu correo electrónico si quieres recibir las actualizaciones por correo.</p>
+         <form>
+            <div class="input-group">
+               <input type="email" class="form-control" size="50" placeholder="Correo electrónico" required>
+               <div class="input-group-btn">
+                  <button type="button" class="btn btn-info">Suscribirse</button>
+               </div>
+            </div>
+         </form>
+      </div>
+      <div class="modal fade" id="myModal" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal LOGIN -->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <BR>
+                  <h4 class="modal-title"><span class="glyphicon glyphicon-user"></span>  Identificación de Usuario</h4>
+               </div>
+               <div class="modal-body">
+                  <p><input type="text" class="form-control" placeholder="Usuario" required></p>
+                  <p><input type="password" class="form-control" placeholder="Password" required></p>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default">Entrar</button>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+<!-- Publicidad -->
+      <div id="pub" class="advert-container">
+         <p>Espacio reservado para incluir publicidad. Si está interesado en anunciarse en esta web háganoslo saber utilizando el formulario de contacto.</p>
+      </div>
+<!-- Container ACERCA DE -->
+      <div id="todo" class="container-fluid">
+         <div id="acerca" class="container-fluid bg-grey">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 id="cap">Acerca de Noticiero semanal</h1>
+                  <br>
+                  <h3 id="tex">La vieja escuela nos recomendaba que para tener siempre presente la actividad de un sitio que nos interesaba, lo idea era añadir el sitio a los favoritos a fin de tener acceso a la web con tan sólo un clic, sin embargo, en la actualidad, seguramente la respuesta es RSS, una tecnología que permite el envío de información relevante al instante a fin de que los usuarios lean cuando lo crean pertinente.</h3>
+                  <h3 id="tex">En esta Web trataremos de mantenerte informado de aquellos temas que son de tu interés, recogiendo las novedades y noticias seleccionadas y presentándotelas de una forma sencilla y ágil, ahorrándote tiempo en interminables búsquedas navegando en la Web.</h3>
+               </div>
+            </div>
+         </div>
+         <br>
+<!-- Botón scroll -->
+         <div class="container text-center">
+            <button id="scroll" type="button" class="btn">Activar Scroll</button>
+         </div>
+<!-- Container NOTICIAS -->
+         <div id="noticias" class="container-fluid text-center">
+            <div class="row noti" id="noticia">
+               <div class="col-sm-12">
+<!-- noticia 1 -->
+                  <a class="thumb pull-left"><img class="img-thumbnail" src="img/1.jpg" alt="Foto 1"></a>
+                  <a href="noticia1.html">
+                     <h2 id="titulo" class="post-contenido text-justify">Los investigados por la presunta estafa del Minerval niegan haberse enriquecido con el medicamento</h2>
+                  </a>
+                  <p id="enunciado" class="post-contenido text-justify">Los dos profesores de la Universitat de les Illes Balears (UIB) investigados por la presunta estafa del Minerval, Xavier Busquets y Pablo Vicente Escribá, han defendido este martes su inocencia ante el juez y han negado haberse enriquecido con la venta del medicamento, asegurando que no hubo ninguna contraprestación económica. Así lo han explicado los abogados defensores de los dos acusados después de declarar en el Juzgado de Instrucción número 9 de Palma durante más de cuatro horas. El abogado de Escribá, Santiago Fiol, ha mantenido que "no hay ninguna estafa" ni" engaño" y que la sustancia administrada ha sido "siempre" "un producto legal y patentado desde el año 2003".</p>
+               </div>
+               <div class="col-sm-6">
+                  <br>
+                  <p id="fecha" class="date">Mon, 2 May 2017 14:00:00 GMT</p>
+               </div>
+            </div>
+            <br>
+            <div class="row noti" id="noticia">
+               <div class="col-sm-12">
+<!-- noticia 2 -->
+                  <a class="thumb pull-left"><img class="img-thumbnail" src="img/2.png" alt="Foto 2"></a>
+                  <a href="noticia2.html">
+                     <h2 id="titulo" class="post-contenido text-justify">Escribà y Busquets mantienen que no vendieron el Minerval como fármaco</h2>
+                  </a>
+                  <p id="enunciado" class="post-contenido text-justify">Los dos catedráticos de la Universitat de les Illes Balears (UIB) relacionadas con el caso Minerval, Xavier Busquets y Pablo Vicente Escribà, han defendido su inocencia y han asegurado que no vendieron ese producto como medicamento si no como nutracéutico, es decir un complemento alimenticio patentado y legal. Ambos han prestado declaración este martes ante el titular del juzgado de Instrucción 9 de Palma, Enrique Morell, quien no ha decretado ninguna medida cautelar contra ellos.</p>
+               </div>
+               <div class="col-sm-6">
+                  <br>
+                  <p id="fecha" class="date">Mon, 5 May 2017 13:09:00 GMT</p>
+               </div>
+            </div>
+            <br>
+            <div class="row noti" id="noticia">
+               <div class="col-sm-12">
+<!-- noticia 3 -->
+                  <a class="thumb pull-left"><img class="img-thumbnail" src="img/3.jpg" alt="Foto 3"></a>
+                  <a href="noticia3.html">
+                     <h2 id="titulo" class="post-contenido text-justify">El impío campus de la UIB: de Brokerval a Minerval</h2>
+                  </a>
+                  <p id="enunciado" class="post-contenido text-justify">En las universidades se admira el prestigio de Harvard y se emulan sus logros con la esperanza de ver progresar el lugar que cada una ocupa en el ranking de la excelencia. La universidad balear, sin embargo, a despecho de la ansiedad que ocasiona esta competencia, prefiere campar a sus anchas y presumir de un talante que, si bien no es digno de envidia, provoca un pasmado asombro. El original plan de gestión del campus balear comenzó hace ya algunos años, a principios de la década de los noventa, cuando a los gerentes de la universidad se les ocurrió sacar rendimiento al dinero de la institución pública y colocarlo en una aventurera sociedad de inversiones. El escándalo Brokerval acabó entonces en los tribunales, pero se dio por concluido con unas extrañas condenas. Quizá por ello la comunidad universitaria no purgó la influencia maléfica de aquella osadía y ha prolongado hasta hoy su majestuoso descaro.</p>
+               </div>
+               <div class="col-sm-6">
+                  <br>
+                  <p id="fecha" class="date">Mon, 15 Apr 2017 21:31:00 GMT</p>
+               </div>
+            </div>
+         </div>
+      </div>
+	  <div id="masNotis">
+	  </div>
+      <!-- Botón + noticias -->
+      <div id="masNoti" class="container text-center">
+         <button id="masNoti" type="button" class="btn">Más noticias</button>
+      </div>
+      <br>
+      <!-- Container CONTACTO -->
+      <div id="contacto" class="container-fluid bg-grey">
+         <h2 class="text-center">Formulario de contacto</h2>
+         <div class="row">
+            <div class="col-sm-4">
+               <p>Contacte con nosotros y responderemos lo antes posible.</p>
+               <p><span class="glyphicon glyphicon-map-marker"></span> Mallorca, ESP</p>                 <!-- Imagen de localización "map-marker" -->
+               <p><span class="glyphicon glyphicon-phone"></span> +34 971111111</p>                      <!-- Imagen de teléfono "phone" -->
+               <p><span class="glyphicon glyphicon-envelope"></span> noticiario@correo.com</p>           <!-- Imagen de sobre correo "envelope" -->
+            </div>
+            <div class="col-sm-5 slideanim">
+               <div class="row">
+                  <div class="col-sm-6 form-group">
+                     <input class="form-control" id="nombre" name="nombre" placeholder="Nombre" type="text" required>
+                  </div>
+                  <div class="col-sm-6 form-group">
+                     <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                  </div>
+               </div>
+               <textarea class="form-control" id="comentarios" name="comentarios" placeholder="Comentarios" rows="5"></textarea>
+               <br>
+               <div class="row">
+                  <div class="col-sm-12 form-group">
+                     <button class="btn btn-default pull-right" type="submit">Enviar</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer -->
+      <footer class="container-fluid text-center">
+         <a href="#noticiero" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"><br>Arriba</span>                                       <!-- Imagen subir arriba "chevron-up" -->
+         </a>
+         <p>Autor: Sebastián Marqués Pardo</p>
+      </footer>
+   </body>
+</html>
