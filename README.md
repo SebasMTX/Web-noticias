@@ -11,4 +11,6 @@ La optimización del código se realiza mediante las siguientes aplicaciones web
 - http://www.webtoolkitonline.com/json-minifier.html
 - http://www.webtoolkitonline.com/xml-minifier.html
 
-Enlace Rawgit al proyecto minified: ** https://rawgit.com/SebasMTX/Web-noticias/minify/index.html **
+Enlace Rawgit al proyecto minified: 
+
+####https://rawgit.com/SebasMTX/Web-noticias/minify/index.html
